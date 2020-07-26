@@ -1,0 +1,26 @@
+n,c = input().split also works
+n,c = map(int,input().split())
+ n,k = [int(x) for x in input().split()]
+
+input().split(maxsplit=1)   	#Accept int and string at once
+
+str[::-1] 			--> String Reverse
+str.count('4') 			--> Count no. of occurences of 4
+
+int() / str()			--> Type casting
+
+import sys			--> Single Line Input in Python
+f = sys.stdin
+n = int(f.readline())
+A = [int(x) for x in f.readline().split()]
+
+
+******************Python Code for String reversal***********
+for _ in range(int(input())):
+    s = input()
+    words = s.split('.')
+    strings = []
+    for word in words:
+        strings.insert(0,word)
+    
+    print(".".join(strings))

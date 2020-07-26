@@ -1,0 +1,4 @@
+
+reverse(str.begin(),str.end())	 --> String Reverse
+sort(a,a+n)			 --> Sort the array
+int n = sizeof(a)/sizeof(a[0])	 --> Size of the array
