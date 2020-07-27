@@ -1,4 +1,52 @@
+==>>> STL <<<===
+    --| Algorith
+    --| Containers
+    --| Functions
+    --| Iterators
+
 
 reverse(str.begin(),str.end())	 --> String Reverse
 sort(a,a+n)			 --> Sort the array
 int n = sizeof(a)/sizeof(a[0])	 --> Size of the array
+
+binary_search(start,end,value) --> Binary binary_search
+
++++>>>> vectors +++<<<<
+    vector<int> vect(arr, arr+n);  --> vector declaration
+sort(vect.begin(), vect.end()); --> vector in ascending order
+reverse(vect.begin(), vect.end()) --> vector in descending order
+*max_element(vect.begin(), vect.end()) --> Max max_element in vector
+*min_element(vect.begin(), vect.end()) --> Min max_element in vector
+accumulate(vect.begin(), vect.end(), 0) --> Summation of vector elements
+count(vect.begin(), vect.end(), 20)  --> count of value
+find(vect.begin(), vect.end(),5)  --> Find value in vector
+vect.erase(vect.begin()+1);  --> Deletes first element
+
+ // fill the array with 10 five times 
+    v.assign(5, 10); 
+// inserts 5 at the beginning 
+    v.insert(v.begin(), 5); 
+// inserts 5 at the beginning 
+    v.insert(v.begin(), 5); 
+ // removes the first element 
+    v.erase(v.begin()); 
+// inserts at the beginning 
+    v.emplace(v.begin(), 5); 
+// Inserts 20 at the end 
+    v.emplace_back(20); 
+ // erases the vector 
+    v.clear(); 
+ // Swaps v1 and v2 
+    v1.swap(v2); 
+  
+
+for (int i = 1; i <= 5; i++) 
+    g1.push_back(i); 
+
+cout << "Output of begin and end: "; 
+for (auto i = g1.begin(); i != g1.end(); ++i) 
+    cout << *i << " "; 
+
+cout << "\nOutput of cbegin and cend: "; 
+for (auto i = g1.cbegin(); i != g1.cend(); ++i) 
+    cout << *i << " "; 
