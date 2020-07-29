@@ -39,6 +39,7 @@ vect.erase(vect.begin()+1);  --> Deletes first element
  // Swaps v1 and v2 
     v1.swap(v2); 
   
+  
 
 for (int i = 1; i <= 5; i++) 
     g1.push_back(i); 

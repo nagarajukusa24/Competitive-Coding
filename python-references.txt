@@ -14,6 +14,8 @@ f = sys.stdin
 n = int(f.readline())
 A = [int(x) for x in f.readline().split()]
 
+print('%.2f'%a) --> decimal precission upto 2 floating points
+print('{0:.2f}'.format(a)) --> another way for floating point representaiton
 
 ******************Python Code for String reversal***********
 for _ in range(int(input())):
@@ -24,3 +26,13 @@ for _ in range(int(input())):
         strings.insert(0,word)
     
     print(".".join(strings))
+*************************************************************
+
+
+Shortcut for Fibonacci series:
+    a,b = 0,1
+    while a < 100:
+        print(a,',')
+        a,b = b,a+b
+
+a[len(a):] = [x] -->add item to end of list
