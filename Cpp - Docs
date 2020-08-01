@@ -1,0 +1,39 @@
+==============================================================================================
+STL Components::
+===============================================================================================
+    -| Algorithms
+    -| Containers
+    -| Functions
+    -| Iterators
+=============================================================================================
+
+
+
+==============================================================================================
+STL --> Shortcuts & Techniques::
+==========================================================================================
+    Algorithms::
+        sort(a,a+n) --> sort an array
+        sort(vect.begin(), vect.end()) --> sort a vector
+
+        reverse(vect.begin(), vect.end()) --> reverse the vector
+
+        *max_element(vect.begin(), vect.end()) --> Max value in vector
+        *min_element(vect.begin(),vect.end())  --> min_element in vector
+        accumulate(vect.begin(),vect.end(), 0) --> Sum of the vector
+        find(vect.begin(), vect.end(), k) --> finding a value in vector
+
+        binary_search(a, a+n, k) --> searching in an array
+        count(a,a+n, k) --> Counts a number in array
+        count(vect.begin(), vect.end(), k) --> counts a number in vector
+        count(str.begin(), str.end(), 'character') --> counts character in the string
+
+        all_of(a,a+n,[](int x) { return x > 0} )  --> checks wheather all values are > 0 in array
+        any_of(a,a+n,[](int x) { return x > 0} )  --> checks wheather any of the values are > 0 in array
+        copy_n(a, n, a1) --> Copies the elements of 'a' into 'a1'
+
+    *********************************************************************
+    Sequence Containers:: Vector, List, deque, arrays
+    Container adopters:: queue, priority queue, stacks
+    Associate Container:: set, multiset, map, multimap
+=============================================================================================
