@@ -1,0 +1,1 @@
+int n = sizeof(arr)/sizeof(a[0])   --> calculates the length of the array
