@@ -18,3 +18,9 @@ for (i=0; s[i]; i++)
 
 __gcd(x, y);  // inbuilt gcd function
 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+
+	return 0;
+}
