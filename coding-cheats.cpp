@@ -1,3 +1,9 @@
+Sum of entire array:
+accumulate(a,a+n,0);
+
+set<int,greater<int>> s;
+
+
 for shifting arrays in +ve or -ve side:
 	valarray<int> var1;
 	var1.shift(x) ==> x is +ve : Left shift , else : Positive shift
@@ -21,6 +27,7 @@ __gcd(x, y);  // inbuilt gcd function
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+	ios_base::sync_with_stdio(false);
 
 	return 0;
 }
