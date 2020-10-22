@@ -11,6 +11,9 @@ accumulate(a,a+n,0);
 
 set<int,greater<int>> s;
 
+shifting vector in clockwise n anticlock wise:
+std::rotate(vec1.begin(), vec1.begin()+rotL, vec1.end());  // left rotate
+std::rotate(vec2.begin(), vec2.begin()+vec2.size()-rotR, vec2.end()); //right rotate
 
 for shifting arrays in +ve or -ve side:
 	valarray<int> var1;
