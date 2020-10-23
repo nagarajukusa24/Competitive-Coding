@@ -15,6 +15,8 @@ shifting vector in clockwise n anticlock wise:
 std::rotate(vec1.begin(), vec1.begin()+rotL, vec1.end());  // left rotate
 std::rotate(vec2.begin(), vec2.begin()+vec2.size()-rotR, vec2.end()); //right rotate
 
+ rotate(a,a+n-k,a+n);  //rotate an array towards right..!
+
 for shifting arrays in +ve or -ve side:
 	valarray<int> var1;
 	var1.shift(x) ==> x is +ve : Left shift , else : Positive shift
