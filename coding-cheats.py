@@ -9,7 +9,7 @@ Inputs::
     Array Inputs Single Line::
         import sys			--> Single Line Input in Python
         f = sys.stdin
-        n = int(f.readline())
+        #n = int(f.readline())
         A = [int(x) for x in f.readline().split()]
 
 ********************************************************************************
