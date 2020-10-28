@@ -8,6 +8,12 @@ cout.tie(NULL)
 #define FOR(n) for(int i=0;i<n;i++)
 void read(int &a, int &b) { cin>>a>>b; }
 
+#include<iostream>
+#include<utility>
+#include<algorithm>
+#include<deque>
+#include<cstdio>
+
 
  ios_base::sync_with_stdio(0);
  
