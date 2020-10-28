@@ -1,11 +1,16 @@
 #Preprocessor Directives::
-#define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define fastio ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+cout.tie(NULL)
 #define ld long double
 #define vt vector
 #define pb push_back
 #define FOR(n) for(int i=0;i<n;i++)
 void read(int &a, int &b) { cin>>a>>b; }
 
+
+ ios_base::sync_with_stdio(0);
+ 
 Sum of entire array:
 accumulate(a,a+n,0);
 
