@@ -14,6 +14,20 @@ void read(int &a, int &b) { cin>>a>>b; }
 #include<deque>
 #include<cstdio>
 
+#include<cstdio>
+#include<cstdlib>
+#include<cstring>
+#include<cmath>
+#include<ctime>
+#include<iostream>
+#include<algorithm>
+#include<map>
+#include<stack>
+#include<queue>
+#include<vector>
+#include<set>
+#include<string>
+
 
  ios_base::sync_with_stdio(0);
  
