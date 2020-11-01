@@ -6,6 +6,9 @@ cout.tie(NULL)
 #define vt vector
 #define pb push_back
 #define FOR(n) for(int i=0;i<n;i++)
+
+#define ll long long
+#define dd double
 void read(int &a, int &b) { cin>>a>>b; }
 
 #include<iostream>
