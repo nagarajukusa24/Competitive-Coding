@@ -43,6 +43,9 @@ shifting vector in clockwise n anticlock wise:
 std::rotate(vec1.begin(), vec1.begin()+rotL, vec1.end());  // left rotate
 std::rotate(vec2.begin(), vec2.begin()+vec2.size()-rotR, vec2.end()); //right rotate
 
+std::distance(v.begin(), std::unique(v.begin(), v.begin() + 12));  // Finding unique elements in vector
+
+
  rotate(a,a+n-k,a+n);  //rotate an array towards right..!
 
 for shifting arrays in +ve or -ve side:
@@ -58,6 +61,12 @@ Even / Odd number shortcut:
 n = n << 1;   // Multiply n with 2 
 n = n >> 1;   // Divide n by 2 
 
+
+   string s;
+   set<char> l;
+   getline(cin, s);
+
+   
 //  Use of strlen() can be avoided by: 
 for (i=0; s[i]; i++)  
 {  
