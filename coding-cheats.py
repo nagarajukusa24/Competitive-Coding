@@ -17,6 +17,10 @@ Inputs::
 
 string.lower() ==> Converts upper case to lower case
 String.upper()
+
+Converting string into list...!
+str = "nagaraj"
+list1 = list(str) 
 ===============================================================================================
 Shortcuts & Techiniques::
 ===============================================================================================
